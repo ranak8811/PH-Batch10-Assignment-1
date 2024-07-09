@@ -317,3 +317,19 @@ a {
   border-radius: 10px;
 }
 /* support section styles ends here */
+
+/* footer section styles starts here */
+.footer-container {
+  width: 1140px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: rgb(113, 123, 126);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* footer section styles ends here */
