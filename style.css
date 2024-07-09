@@ -60,3 +60,33 @@ body {
 }
 
 /* header styles ends here */
+
+/* why web development section styles starts here */
+.why-web-development-section {
+  margin: 90px 80px;
+}
+
+.why-web-development-section-content {
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.why-web-development-section-content-heading {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.why-web-development-section-content-heading h1 {
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.why-web-development-section-content-heading p {
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+/* why web development styles ends here */
