@@ -9,7 +9,10 @@ body {
 }
 
 /* all common styles starts here */
-
+a {
+  text-decoration: none;
+  color: black;
+}
 /* all common styles ends here */
 
 /* header styles starts here */
@@ -68,7 +71,6 @@ body {
 
 .why-web-development-section-content {
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .why-web-development-section-content-heading {
@@ -88,5 +90,45 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin-top: 15px;
+}
+
+.wwd-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+.wwd-section-text {
+  width: 60%;
+}
+
+.wwd-section-text h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.wwd-section-text p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.wwd-section-text button {
+  width: 171px;
+  height: 47px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.wwd-section-img {
+  width: 40%;
+  height: 240px;
 }
 /* why web development styles ends here */
