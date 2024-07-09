@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Azeret Mono", monospace;
+}
+
+/* all common styles starts here */
+
+/* all common styles ends here */
+
+/* header styles starts here */
+.header-container {
+  width: 1440px;
+  height: 652px;
+  background-image: url("./images/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.header-content {
+  max-width: 998px;
+  height: 582px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-content img {
+  width: 240.28px;
+  height: 240px;
+}
+
+.header-content h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-top: 32px;
+}
+
+.header-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.header-content button {
+  width: 208px;
+  height: 66px;
+  border-radius: 8px;
+  font-size: 20px;
+  background: rgb(13, 19, 33);
+  color: white;
+  margin-top: 32px;
+}
+
+/* header styles ends here */
