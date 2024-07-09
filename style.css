@@ -89,7 +89,7 @@ a {
   font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .wwd-section {
@@ -166,3 +166,85 @@ a {
   height: 660px;
 }
 /* inspiration section styles ends here */
+
+/* target section styles starts here */
+.target-section {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.target-section-text h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.target-section-text p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.target-container {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.learn-html {
+  width: 33%;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.learn-css {
+  width: 33%;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.learn-js {
+  padding: 20px;
+  width: 34%;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.learn-img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 15px;
+}
+
+.learn-h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.learn-p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.learn-a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+/* target section styles ends here */
