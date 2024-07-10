@@ -17,13 +17,14 @@ a {
 
 /* header styles starts here */
 .header-container {
-  max-width: 1440px;
+  max-width: 1240px;
   height: 100vh;
   background-image: url("./images/hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
+  margin: 0 auto;
 }
 
 .header-content {
